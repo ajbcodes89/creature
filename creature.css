@@ -1,0 +1,126 @@
+h2 {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 70px;
+    text-align: center;
+}
+
+.car {
+    display: flex;
+    flex-direction: row;
+}
+
+#car_body {
+   /* display: block; 
+    margin-left: auto;
+    margin-right: auto; */
+    background-color: rgba(225,225,225,100);
+    width: 300px;
+    height: 250px;
+    position: relative;
+    left: 300px;
+    z-index: 1;
+}
+
+#car_front {
+    background-color: rgba(225,225,225,100);
+    border: solid black 1px;
+    width: 150px;
+    height: 150px;
+    position: relative;
+    left: 200px;
+    top: 100px;
+    z-index: 5;
+}
+
+#car_mouth {
+    background-color: black;
+    width: 100px;
+    height: 50px;
+    position: absolute;
+    /*position: relative;*/
+    left: 540px;
+    top: 400px;
+    z-index: 100;
+}
+
+/* #car_teeth{
+    background-color: white;
+    height: 20px;
+    width: 20px;
+    position: relative;
+    z-index: 7;
+    left: -;
+    top: 13px;
+} */
+
+#car_wheel_front_1 {
+    background-color: black;
+    width: 25px;
+    height: 50px;
+    position: relative;
+    left: -70px;
+    top: 230px; 
+    z-index: 3;
+}
+
+#car_wheel_back_1 {
+    background-color: black;
+    width: 25px;
+    height: 50px;
+    position: relative;
+    left: 20px;
+    top: 230px;
+    z-index: 4;
+    
+}
+
+#car_eye_left {
+    background-color: white;
+    border: 1px solid black;
+    position: relative;
+    height: 50px;
+    width: 50px;
+    left: -10px;
+    z-index: 5;
+}
+
+#car_eye_right {
+    background-color: white;
+    border: 1px solid black;
+    position: relative;
+    height: 50px;
+    width: 50px;
+    z-index: 6;
+}
+
+#inner_eye_right{
+    background-color: black;
+    height: 20px;
+    width: 20px;
+    position: relative;
+    z-index: 7;
+    left: -30px;
+    top: 13px;
+}
+
+#inner_eye_left{
+    background-color: black;
+    height: 20px;
+    width: 20px;
+    position: relative;
+    z-index: 7;
+    left: -110px;
+    top: 12px;
+}
+
+.car_eye{
+    position: absolute;
+    top: 70%;
+}
+
+
+/*.wheels {
+    display: flex;
+    flex-direction: row;
+
+}
